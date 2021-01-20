@@ -16,9 +16,6 @@ auth_url = "https://api.yuzu-emu.org/jwt/installer/"
 name = "yuzu Early Access"
 description = "Preview release with the newest features for the supporters."
 icon = "thicc_logo_installer__ea_shadow.png"
-requires_authorization = false
-# puts a "new" ribbon the package select
-is_new = true
     [packages.source]
     name = "github"
     match = "^Windows-Yuzu-EA-[0-9]*.7z$"

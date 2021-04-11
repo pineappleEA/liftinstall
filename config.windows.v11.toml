@@ -20,7 +20,7 @@ icon = "thicc_logo_installer__ea_shadow.png"
     name = "github"
     match = "^Windows-Yuzu-EA-[0-9]*.7z$"
     	[packages.source.config]
-    	repo = "mgthepro/pineapple-src"
+    	repo = "pineappleEA/pineapple-src"
     [[packages.shortcuts]]
     name = "yuzu"
     relative_path = "yuzu-windows-msvc-early-access/yuzu.exe"
